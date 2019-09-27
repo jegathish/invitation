@@ -1,7 +1,7 @@
-AOS.init();
 
+AOS.init({
 
-
+});
 
 function makeTimer() {
 
@@ -29,5 +29,11 @@ function makeTimer() {
 			$("#seconds").html(seconds + "<span> Seconds</span>");
 
 	}
+	$(".video").hide();
+  $(".but").click(function(){
+
+    $(".but").hide();
+		$(".video").show();
+  })
 
 	setInterval(function() { makeTimer(); }, 1000);
