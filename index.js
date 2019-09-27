@@ -1,12 +1,14 @@
 
 AOS.init({
 
+
+
 });
 
 function makeTimer() {
 
 	//		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");
-		var endTime = new Date("30 September 2019 9:56:00 GMT+01:00");
+		var endTime = new Date("30 September 2019 9:30:00 GMT+05:30");
 			endTime = (Date.parse(endTime) / 1000);
 
 			var now = new Date();
@@ -35,5 +37,11 @@ function makeTimer() {
     $(".but").hide();
 		$(".video").show();
   })
+	 $(".iframe").hide();
+	$(".map-tog").click(function() {
+		console.log("click");
+		$(".address").toggle();
+		$(".iframe").toggle();
+	})
 
 	setInterval(function() { makeTimer(); }, 1000);
