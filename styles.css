@@ -32,6 +32,10 @@
   font-family: 'Mansalva', cursive;
 }
 
+.name {
+  color: #b36300f2;
+}
+
 img {
   object-fit: cover;
   overflow-x: hidden;
@@ -130,6 +134,12 @@ span {
   padding-top: 10%;
 }
 
+iframe {
+  height : 40vh;
+  width: 100%;
+}
+
+
 .item3
 {
   background-image: url("blackrose.png");
@@ -151,5 +161,33 @@ span {
 
 .item5
 {
-  background-color: gray;
+  background-color: white;
+  color: black;
+  padding-top: 10%;
+  font-family: 'Mansalva', cursive;
+}
+
+.ad1 {
+  font-size: 100px;
+  padding-top: 20%;
+  margin-bottom: 20%;
+}
+.map-tog {
+  font-size: 50px;
+  padding: 1% 10%;
+  color: white;
+  display: block;
+  margin: auto;
+  background: black;
+}
+.map-tog:hover {
+  color: black;
+  background-color: white;
+}
+.fad {
+  size:7x;
+}
+.contact, .msg {
+  padding: 10%;
+  margin: 20% 10%;
 }
