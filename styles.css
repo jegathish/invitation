@@ -3,33 +3,33 @@
 
 
 .time div {
-  display: block;
+
+  display: inline-block;
   line-height: 1;
-  padding: 3% 0 1%;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 40px;
+  color: black;
 }
 
 
 #days {
   font-size: 100px;
-  color: #db4844;
 }
 #hours {
   font-size: 100px;
-  color: #f07c22;
 }
 #minutes {
   font-size: 100px;
-  color: #f6da74;
 }
 #seconds {
   font-size: 50px;
-  color: #abcd58;
 }
 
 .title-text {
   padding: 10% 0 10%;
   font-size: 100px;
+
+  font-family: 'Mansalva', cursive;
 }
 
 video {
@@ -41,11 +41,41 @@ video {
 .navbar {
   font-size: 50px;
   margin-top: 10%;
+  font-family: 'Kalam', cursive;
+
 }
+
 .main {
-  background-color: pink;
+  background-color: white;
 
   text-align: center;
+}
+
+span {
+  display: block;
+  font-size: 60px;
+  color: black;
+}
+
+.invite {
+  width:30%;
+  font-size: 50px;
+  height: 100vh;
+  line-height: 1.6;
+  font-family: cursive;
+  padding: 5% 5% 0 1%;
+  font-family: 'Lobster Two', cursive;
+}
+.engaged {
+  font-size: 200px;
+  text-transform: uppercase;
+}
+.rotate {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  line-height: 1;
+  padding-bottom: 100px;
+  letter-spacing: 30px;
 }
 .item {
   height: 100vh;
@@ -53,23 +83,42 @@ video {
 }
 .item1
 {
-  padding-top: 10%;
-  background-color: #d24dff;
+  padding-top: 30%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1N_iYGj1E5N_j2Qm1hjZ5HfKQZtH8B2higdiVBPO4S_fU7KW");
+  background-position: center;
+
+  background-size: cover;
 }
 
 .item2
 {
-  background-color: brown;
+  background-image: url("https://videohive.img.customer.envatousercontent.com/files/3d5196fb-09bb-4236-9b96-7532677b14cc/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=a88dd48b27195e7c27ee6e0c353660ad");
+
+  background-position: center;
+  background-size: cover;
+  font-size: 50px;
+  font-family: cursive;
+  text-transform: capitalize;
+  padding-top: 10%;
 }
 
 .item3
 {
-  background-color: green;
+  background-image: url("rose.png");
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+
 }
+
 
 .item4
 {
-  background-color: black;
+  background-color: white;
+  background-image: url("couple.png");
+  background-position: top;
+  margin-top: 10%;
+  background-size: cover;
 }
 
 .item5
