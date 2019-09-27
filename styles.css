@@ -32,11 +32,10 @@
   font-family: 'Mansalva', cursive;
 }
 
-video {
+img {
+  object-fit: cover;
+  overflow-x: hidden;
   width: 100%;
-  position: relative;
-  top:20px;
-
 }
 .navbar {
   font-size: 50px;
@@ -57,14 +56,39 @@ span {
   color: black;
 }
 
+.buton{
+    padding: 30px 40px;
+    font-size: 100px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 2% 10%;
+    border: none;
+}
+
+.buton:hower{
+  color: black;
+  background-color: grey;
+}
+.btn-txt{
+  font-size: 100px;
+  color: white;
+}
+
+
 .invite {
-  width:30%;
-  font-size: 50px;
+  width:80%;
+  color: #afa247;
+  font-size: 60px;
   height: 100vh;
-  line-height: 1.6;
+  line-height: 1.7;
   font-family: cursive;
-  padding: 5% 5% 0 1%;
+  padding: 5% 5% 35% 20%;
   font-family: 'Lobster Two', cursive;
+  clear: right;
+  margin: auto;
+}
+.invite-img {
+
 }
 .engaged {
   font-size: 200px;
@@ -83,11 +107,15 @@ span {
 }
 .item1
 {
-  padding-top: 30%;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1N_iYGj1E5N_j2Qm1hjZ5HfKQZtH8B2higdiVBPO4S_fU7KW");
+  padding-top: 20%;
   background-position: center;
-
   background-size: cover;
+}
+.time-tit{
+  font-size: 50px;
+  margin: auto;
+  padding-bottom: 5%;
+  font-family: 'Lobster Two', cursive;
 }
 
 .item2
@@ -104,11 +132,11 @@ span {
 
 .item3
 {
-  background-image: url("rose.png");
-  background-position: center;
-  background-size: cover;
-  background-color: white;
+  background-image: url("blackrose.png");
+  background-position: left;
+  background-repeat: no-repeat;
 
+  background-color: white;
 }
 
 
