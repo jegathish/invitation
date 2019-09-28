@@ -34,6 +34,7 @@
 
 .name {
   color: #b36300f2;
+  font-family: 'Kalam', cursive;
 }
 
 img {
@@ -148,7 +149,13 @@ iframe {
 
   background-color: white;
 }
-
+.greeting {
+  font-size: 130px;
+  text-transform: capitalize;
+  font-family: 'Mansalva', cursive;
+  padding-left: 12%;
+  color: #868804;
+}
 
 .item4
 {
